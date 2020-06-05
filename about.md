@@ -1,0 +1,1 @@
+# Pár mondat rólam
