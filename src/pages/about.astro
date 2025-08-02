@@ -1,14 +1,25 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+import Layout from "../layouts/BlogPost.astro";
 ---
 
-<Layout
-	title="About Me"
-	description=""
-	pubDate={new Date('October 29 2023')}
->
-
-	<p>
-		This is me.
-	</p>
+<Layout title="About Me" description="" pubDate={new Date("Aug 2 2025")}>
+  <p>
+    This is me. And this is my dog.
+    <a
+      data-flickr-embed="true"
+      data-header="true"
+      href="https://www.flickr.com/photos/hlabadi/albums/72177720328112358"
+      title=" teszt album">
+	  <img
+        src="https://live.staticflickr.com/65535/54694737554_475ff44a41_c.jpg"
+        width="800"
+        height="600"
+        alt=" teszt album"/>
+	</a>
+	  <script
+      async
+      src="//embedr.flickr.com/assets/client-code.js"
+      charset="utf-8">
+	</script>
+  </p>
 </Layout>
