@@ -1,0 +1,30 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+  description: "I'm a starter theme for Astro.build",
+  title: "About",
+};
+---
+
+<PageLayout meta={meta}>
+  <h1 class="title mb-12">About</h1>
+  <p>Ez vagyok én.</p>
+
+  <p>Ez pedig a kutyám.</p>
+  <a
+    data-flickr-embed="true"
+    data-header="true"
+    href="https://www.flickr.com/photos/hlabadi/albums/72177720328112358"
+    title=" teszt album"
+  >
+    <img
+      src="https://live.staticflickr.com/65535/54694737554_475ff44a41_c.jpg"
+      width="800"
+      height="600"
+      alt=" teszt album"
+    />
+  </a>
+  <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"
+  ></script>
+</PageLayout>
